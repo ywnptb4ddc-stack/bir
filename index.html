@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Shreya ❤️ — From Saroj</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family: Georgia, "Times New Roman", serif;
+    background:#fff7fb;
+    color:#3c2430;
+    overflow-x:hidden;
+  }
+  .petals{position:fixed;inset:0;pointer-events:none;z-index:5;overflow:hidden}
+  .petal{
+    position:absolute;top:-30px;font-size:20px;opacity:.75;
+    animation:fall linear infinite;
+  }
+  @keyframes fall{to{transform:translateY(110vh) rotate(360deg);opacity:.1}}
+  .hero{
+    min-height:100vh;display:flex;align-items:center;justify-content:center;
+    text-align:center;padding:40px 20px;position:relative;
+    background:
+      radial-gradient(circle at 20% 20%,#ffd8e8 0,transparent 28%),
+      radial-gradient(circle at 80% 30%,#ffe7c7 0,transparent 25%),
+      linear-gradient(135deg,#fff8fc,#fff0f6 55%,#fff9ed);
+  }
+  .hero-inner{max-width:850px;position:relative;z-index:2}
+  .small{letter-spacing:4px;text-transform:uppercase;font-size:12px;color:#a65b79;margin-bottom:18px}
+  h1{font-size:clamp(56px,12vw,120px);line-height:.9;color:#9e3d65;text-shadow:0 8px 25px #d889a355}
+  .subtitle{font-size:clamp(20px,3vw,30px);margin:28px auto 12px;line-height:1.45}
+  .from{font-size:18px;color:#9a667b;margin-top:12px}
+  .heart{display:inline-block;animation:pulse 1.25s infinite}
+  @keyframes pulse{50%{transform:scale(1.22)}}
+  .btn{
+    display:inline-block;margin-top:35px;padding:14px 28px;border-radius:999px;
+    background:#a63f69;color:#fff;text-decoration:none;font-family:Arial,sans-serif;
+    box-shadow:0 10px 25px #a63f6940;transition:.25s
+  }
+  .btn:hover{transform:translateY(-3px);box-shadow:0 14px 30px #a63f6955}
+  section{padding:90px 20px}
+  .wrap{max-width:1050px;margin:auto}
+  .section-title{text-align:center;font-size:clamp(32px,6vw,54px);color:#9e3d65;margin-bottom:15px}
+  .section-sub{text-align:center;color:#80626f;max-width:650px;margin:0 auto 45px;font-size:17px;line-height:1.7}
+  .intro{
+    background:#fff;box-shadow:0 20px 60px #9d4d7020;border-radius:30px;padding:40px;
+    font-size:20px;line-height:1.9;text-align:center
+  }
+  .gallery{
+    display:grid;grid-template-columns:repeat(2,1fr);gap:22px
+  }
+  .card{
+    background:#fff;padding:12px;border-radius:24px;box-shadow:0 15px 40px #9d4d7018;
+    transform:rotate(var(--r));transition:.35s
+  }
+  .card:hover{transform:rotate(0) translateY(-7px) scale(1.02)}
+  .card img{display:block;width:100%;height:360px;object-fit:cover;border-radius:16px}
+  .caption{padding:17px 12px 10px;text-align:center;font-size:17px;line-height:1.5}
+  .love{
+    background:linear-gradient(145deg,#9d3c64,#c45b7e);color:white;text-align:center
+  }
+  .love .section-title{color:white}
+  .letter{
+    background:#fff;border-radius:30px;color:#4b2e3b;padding:45px;max-width:820px;margin:40px auto 0;
+    box-shadow:0 25px 70px #5d173b35;text-align:left;font-size:19px;line-height:1.95
+  }
+  .letter p{margin-bottom:20px}
+  .signature{text-align:right;font-size:25px;color:#a13f67;margin-top:30px}
+  .surprise{text-align:center;background:#fff5f9}
+  .secret{
+    max-width:700px;margin:30px auto;background:#fff;border-radius:28px;padding:35px;
+    box-shadow:0 18px 50px #a63f6920
+  }
+  .secret button{
+    border:0;background:#a63f69;color:#fff;border-radius:999px;padding:15px 26px;
+    font-size:16px;cursor:pointer
+  }
+  #secretMessage{display:none;margin-top:25px;font-size:22px;line-height:1.8;color:#8f345d}
+  footer{text-align:center;padding:35px 20px;background:#2d1822;color:#f8dce7;font-family:Arial,sans-serif}
+  .tiny{font-size:13px;opacity:.7;margin-top:8px}
+  @media(max-width:700px){
+    section{padding:65px 16px}
+    .intro,.letter{padding:28px 22px}
+    .gallery{grid-template-columns:1fr}
+    .card img{height:420px}
+  }
+</style>
+</head>
+<body>
+
+<div class="petals" aria-hidden="true">
+  <span class="petal" style="left:8%;animation-duration:12s;animation-delay:0s">♡</span>
+  <span class="petal" style="left:22%;animation-duration:15s;animation-delay:3s">♥</span>
+  <span class="petal" style="left:40%;animation-duration:11s;animation-delay:1s">✦</span>
+  <span class="petal" style="left:58%;animation-duration:16s;animation-delay:5s">♡</span>
+  <span class="petal" style="left:76%;animation-duration:13s;animation-delay:2s">♥</span>
+  <span class="petal" style="left:91%;animation-duration:17s;animation-delay:7s">✦</span>
+</div>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="small">A little surprise from Saroj</div>
+    <h1>Shreya <span class="heart">♥</span></h1>
+    <div class="subtitle">Happy Birthday to the girl who somehow made my heart forget how to behave normally.</div>
+    <div class="from">With all my love — Saroj</div>
+    <a class="btn" href="#story">Start the surprise ↓</a>
+  </div>
+</header>
+
+<section id="story">
+  <div class="wrap">
+    <h2 class="section-title">Okay Shreya… listen carefully 😌</h2>
+    <p class="section-sub">I could have simply said “Happy Birthday”, but honestly, you deserve a little more effort. And unfortunately for you, you got me. 😂❤️</p>
+    <div class="intro">
+      If someone asked me what my favorite notification is, I'd probably say your name popping up on my phone.
+      <br><br>
+      If someone asked me what makes an ordinary day better, I'd say <b>you</b>.
+      <br><br>
+      And if someone asked me what I want for your birthday… I'd say I want to keep seeing that beautiful smile for a very, very long time.
+    </div>
+  </div>
+</section>
+
+<section style="background:#fffafc">
+  <div class="wrap">
+    <h2 class="section-title">10 little pieces of us 📸</h2>
+    <p class="section-sub">Replace the ten files in the <b>photos</b> folder with your pictures, keeping the names photo1.jpg through photo10.jpg.</p>
+
+    <div class="gallery">
+      <div class="card" style="--r:-1deg"><img src="photos/photo1.jpg" alt="Shreya and Saroj - memory 1"><div class="caption">You looked this cute and somehow expected me to act normal. Impossible. ❤️</div></div>
+      <div class="card" style="--r:1.2deg"><img src="photos/photo2.jpg" alt="Shreya and Saroj - memory 2"><div class="caption">One picture, approximately a thousand reasons for me to smile.</div></div>
+      <div class="card" style="--r:-.7deg"><img src="photos/photo3.jpg" alt="Shreya and Saroj - memory 3"><div class="caption">My favorite kind of beautiful? You. No debate. 😌</div></div>
+      <div class="card" style="--r:1deg"><img src="photos/photo4.jpg" alt="Shreya and Saroj - memory 4"><div class="caption">Some memories don't need filters. They already have you in them.</div></div>
+      <div class="card" style="--r:-1.3deg"><img src="photos/photo5.jpg" alt="Shreya and Saroj - memory 5"><div class="caption">Proof that my life became considerably more adorable after you.</div></div>
+      <div class="card" style="--r:.8deg"><img src="photos/photo6.jpg" alt="Shreya and Saroj - memory 6"><div class="caption">I don't know what I did to deserve you, but I'm not complaining. ❤️</div></div>
+      <div class="card" style="--r:-.8deg"><img src="photos/photo7.jpg" alt="Shreya and Saroj - memory 7"><div class="caption">This smile should honestly come with a warning. It completely destroys me.</div></div>
+      <div class="card" style="--r:1.4deg"><img src="photos/photo8.jpg" alt="Shreya and Saroj - memory 8"><div class="caption">Another memory I'd happily relive a hundred times.</div></div>
+      <div class="card" style="--r:-1deg"><img src="photos/photo9.jpg" alt="Shreya and Saroj - memory 9"><div class="caption">If happiness had a face, I'd probably recognize it immediately.</div></div>
+      <div class="card" style="--r:.6deg"><img src="photos/photo10.jpg" alt="Shreya and Saroj - memory 10"><div class="caption">And somehow, after all these pictures, you're still my favorite one. 💕</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="love">
+  <div class="wrap">
+    <h2 class="section-title">A letter I probably wouldn't say this smoothly out loud…</h2>
+    <div class="letter">
+      <p>Dear Shreya,</p>
+      <p>Today is your birthday, but somehow I feel like I'm the lucky one getting a reason to celebrate.</p>
+      <p>You have this ridiculous ability to make me smile without even trying. You can turn a boring conversation into something I'll remember, and somehow even your little annoying moments become things I secretly miss when you're not around.</p>
+      <p>I love the way you are. Not just the pretty parts, not just the sweet parts, but the whole wonderfully complicated, funny, stubborn, adorable person that you are.</p>
+      <p>I hope this new year of your life brings you everything your heart has been quietly wishing for. I hope you laugh more, worry less, dream bigger, and never forget how special you are.</p>
+      <p>And selfishly, I hope I get to be there for a lot of those moments — the birthdays, the random late-night conversations, the stupid jokes, the little arguments, the hugs after them, and all the memories we haven't made yet.</p>
+      <p>If I had to choose one person to annoy for the rest of my life… well, congratulations. You have been selected. 😂❤️</p>
+      <p>Happy Birthday, Shreya. You are loved more than this little website could ever explain.</p>
+      <div class="signature">Forever yours,<br><b>Saroj ❤️</b></div>
+    </div>
+  </div>
+</section>
+
+<section class="surprise">
+  <div class="wrap">
+    <h2 class="section-title">Wait… there's one more thing 👀</h2>
+    <p class="section-sub">You made it this far, so you deserve the final surprise.</p>
+    <div class="secret">
+      <button onclick="showSecret()">Don't click this 😏</button>
+      <div id="secretMessage">
+        Okay, fine… you clicked it. 😂<br><br>
+        <b>Shreya, I love you.</b><br>
+        More than the jokes, more than the pictures, more than I know how to put into words.<br><br>
+        <span style="font-size:30px">Happy Birthday, my favorite person. ❤️🎂</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  Made with way too much love by Saroj for Shreya ❤️
+  <div class="tiny">This little page is yours. Keep it forever.</div>
+</footer>
+
+<script>
+function showSecret(){
+  const m=document.getElementById('secretMessage');
+  m.style.display='block';
+  document.querySelector('.secret button').style.display='none';
+  for(let i=0;i<35;i++){
+    const s=document.createElement('span');
+    s.textContent=['❤️','💕','✨','💖','🌸'][Math.floor(Math.random()*5)];
+    s.style.position='fixed';
+    s.style.left=(Math.random()*100)+'vw';
+    s.style.top='-20px';
+    s.style.fontSize=(14+Math.random()*20)+'px';
+    s.style.zIndex='20';
+    s.style.animation=`fall ${2+Math.random()*3}s linear forwards`;
+    document.body.appendChild(s);
+    setTimeout(()=>s.remove(),5500);
+  }
+}
+</script>
+</body>
+</html>
